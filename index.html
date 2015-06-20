@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<title>Pitch for Data Products Course Project App</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=1274, user-scalable=no">
+	<meta name="description" content="Pitch for Data Products Course Project App">
+	<meta name="author" content="lvsh">
+	<meta name="generator" content="slidify" />
+	<!-- LOAD STYLE SHEETS -->
+	<link rel="stylesheet" href="libraries/frameworks/shower/themes/ribbon/styles/screen.css">
+	<link rel="stylesheet" media="print"
+	  href="libraries/frameworks/shower/themes/ribbon/styles/print.css">
+	<link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css">  <link rel="stylesheet" href = "assets/css/ribbons.css">
+
+	<!--
+		To apply styles to the certain slides
+		use slide ID to get needed elements
+		-->
+	<style>
+		#Cover h2 {
+      margin:65px 0 0;
+			color:#FFF;
+			text-align:center;
+			font-size:70px;
+			}
+		#FitToWidth h2,
+		#FitToHeight h2 {
+			color:#FFF;
+			text-align:center;
+			}
+	</style> 
+</head>
+<body class="list">
+  <header class="caption">
+  	<h1>Pitch for Data Products Course Project App</h1>
+	</header>
+  <section class="slide " id="slide-1">
+  <div>
+    <h2>When to hit the brakes?</h2>
+    <p><img src="assets/img/car-316709_640.jpg" alt="Driving in traffic"></p>
+
+  </div>
+</section>
+<section class="slide class" id="id">
+  <div>
+    <h2>When to hit the brakes?</h2>
+    <p>To avoid collisions, one has to brake in time.</p>
+
+<p>Stopping distance depends on driving speed. </p>
+
+<p>Can we find a way to predict stopping distance?</p>
+
+  </div>
+</section>
+<section class="slide " id="slide-3">
+  <div>
+    <h2>Cars dataset to the rescue</h2>
+    <p>R dataset containing speed and stopping distances for various cars (Ezekiel, 1930).</p>
+
+<pre><code class="r">data(cars)
+head(cars,n=1)
+</code></pre>
+
+<pre><code>##   speed dist
+## 1     4    2
+</code></pre>
+
+  </div>
+</section>
+<section class="slide " id="slide-4">
+  <div>
+    <h2>Building a predictor using cars data</h2>
+    <p><img src="assets/fig/plotdata-1.png" alt="plot of chunk plotdata"> </p>
+
+  </div>
+</section>
+<section class="slide " id="slide-5">
+  <div>
+    <h2>Check out the app</h2>
+    <p>Predict stopping distance at any speed!</p>
+
+<p><a href="https://lvsh.shinyapps.io/CourseProject">https://lvsh.shinyapps.io/CourseProject</a></p>
+
+  </div>
+</section>
+  <div class="progress">
+    <div></div>
+  </div>
+	<script src="libraries/frameworks/shower/shower.js"></script>
+	<!-- LOAD HIGHLIGHTER JS FILES -->
+	<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+	<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+	 
+		<!-- Copyright © 2010–2012 Vadim Makeev — pepelsbey.net -->
+	<!-- Photos by John Carey — fiftyfootshadows.net -->
+</body>
+</html>
